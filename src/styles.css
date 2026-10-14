@@ -1,0 +1,22 @@
+body {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.34)),
+    url('../public/img/fondo.jpeg') center / cover fixed;
+}
+
+.translator-card {
+  overflow: hidden;
+  border-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(6px);
+}
+
+.translator-card .card-body {
+  background-color: transparent;
+}
+
+.translator-card .form-control,
+.translator-card .form-select {
+  background-color: rgba(255, 255, 255, 0.82);
+}
